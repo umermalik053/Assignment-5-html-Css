@@ -1,0 +1,149 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-image: url(./Gradient.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* nav start */
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+    color: white;
+    margin-right: 10px;
+
+}
+li{
+    display: inline;
+    margin: 0px 10px;
+}
+div.logo{
+    float: left;
+
+    
+
+}
+.button{
+   background-color: red;
+   padding: 6px 15px;
+   border-radius: 40px;
+
+
+}
+/* nav end  */
+
+/* content start */
+
+.main-container{
+    width: 100%;
+    height: 500px;
+    
+    margin-top: 50px;
+}
+#content{
+    color: rgb(255, 255, 255);  
+    width: 60%;
+    display: inline-block;
+    padding-left: 35px;
+    padding-top: 120px;
+    padding-right: 35px;
+}
+.pic{
+    width: 40%;
+    height: 100%;
+    float: right;
+    margin: 0px;
+    position: relative;
+    
+}
+.picture3{
+    position: absolute ;
+
+}
+.img3{
+    position: absolute;
+    right: 20%;
+    top: 60px ;
+    border-radius: 30px;
+}
+.rupe{
+    position: absolute;
+    right: 22%;
+    top: 70px ;
+    left: 375px;
+    color: #f1f1f1;
+    background-color: rgb(9, 9, 197);
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 35px;
+
+    font-size: 15px;
+}
+.percent{
+    position: absolute;
+    top: 350px ;
+    left: 150px;
+    color: #f1f1f1;
+    background-color: red;
+    border-radius: 50%;
+    /* padding: 15px 25px; */
+    width: 100px;
+    height: 100px;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    
+
+    font-size: 35px;
+
+}
+
+
+/* content end */
+
+/* searchbox */
+form{
+    position: relative;
+}
+/* Style the search field */
+input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    background: #f1f1f1;
+    margin-top: 25px;
+    position: absolute;
+    border-radius: 40px;
+}
+/* searchbox end */
+
+/* Style the submit button */
+button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: red;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    margin-top: 25px;
+    border-radius: 40px;
+    position: absolute;
+    left: 250px;
+  }
+/* submit button end  */
